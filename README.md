@@ -12,7 +12,9 @@ Usage
 ---
 This example corresponds to 6 nodes with each array representing outgoing edges
 
-    var nodes = [[1,2],[],[0,1,4],[4,5],[3,5],[3]];
+    var Pagerank = require('pagerank-js');
+
+    var nodes = [[4],[],[0,1,4],[4,5],[3,5],[3]];
     var linkProb = 0.85;    //high numbers are more stable
     var tolerance = 0.0001; //sensitivity for accuracy of convergence.
 
